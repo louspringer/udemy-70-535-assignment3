@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\ValuesController.cs" />
+    <Compile Remove="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="WindowsAzure.Storage" Version="9.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Properties\launchSettings.json" />
+    <None Remove="appsettings.Development.json" />
+  </ItemGroup>
+</Project>

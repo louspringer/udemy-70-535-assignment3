@@ -1,0 +1,3 @@
+{
+  "StorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=<storage-account>;AccountKey=<storage-account-key>"
+}
